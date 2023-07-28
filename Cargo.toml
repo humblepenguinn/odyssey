@@ -1,0 +1,23 @@
+[package]
+name = "odyssey"
+version = "0.0.0-pre"
+rust-version = "1.64.0"
+description = "A custom blockchain written in rust"
+edition = "2021"
+authors = ["Humble Penguin <humblepenguinoffical@gmail.com>"]
+repository = "https://github.com/humblepenguinn/odyssey/"
+license = "MIT/Apache-2.0"
+readme = "README.md"
+
+[dependencies]
+bincode = "1.3.3"
+bs58 = "0.5.0"
+dotenv = "0.15.0"
+hex-slice = "0.1.4"
+log = "0.4.19"
+num-bigint = { version = "0.4.3", features = ["serde"] }
+ripemd = "0.1.3"
+secp256k1 = { version = "0.27.0", features = ["bitcoin-hashes-std", "rand-std", "serde"] }
+serde = { version = "1.0.171", features = ["derive"] }
+sha256 = "1.1.4"
+sled = "0.34.7"

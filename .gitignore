@@ -1,0 +1,5 @@
+/.vscode
+/target
+/blockchain
+/wallets
+src/main.rs
